@@ -1,0 +1,285 @@
+* {
+    user-select: none;
+    caret-color: transparent;
+}
+
+#synth-body {
+    box-shadow: 3px 3px rgba(50,50,50,1);
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    background-color: grey;
+    color: white;
+    border-radius: 1% 1% 1% 1%;
+}
+[id*="button"] {
+    width: 100px;
+}
+#button-container {
+    margin: 20px;
+}
+#button1-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button2-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button3-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button4-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button1-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button2-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button3-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button4-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+
+#button1a-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button2a-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button3a-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button4a-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button1a-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button2a-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button3a-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button4a-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+
+
+
+#button1b-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button2b-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button3b-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button4b-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button1b-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button2b-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button3b-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button4b-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+
+
+
+#button1c-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button2c-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button3c-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button4c-light {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    z-index: 1000;
+}
+#button1c-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button2c-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button3c-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+#button4c-onoff {
+    box-shadow: 3px 3px rgba(50,50,50,.5);
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    z-index: 1000;
+}
+
+
+
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#On {
+    margin-top: 20px;
+    grid-column: 9 / span 1;
+    grid-row: 1 / span 1;
+    color: white;
+    width:100px;
+    height: 100px;
+    background-color: black;
+    box-shadow: 3px 3px rgba(50,50,50,0.5);
+}
+
+#select {
+
+    grid-row: 5 / span 1;
+    grid-column: 6 / span 1;
+    height: 30px;
+    width: 100px;
+}
+#beats {
+    grid-row: 5 / span 1;
+    grid-column: 7 / span 1;
+    height: 10px;
+    width: 100px;
+}
