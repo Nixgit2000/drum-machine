@@ -272,14 +272,8 @@
 
 #select {
 
-    grid-row: 5 / span 1;
-    grid-column: 6 / span 1;
+    grid-row: 2 / span 1;
+    grid-column: 9 / span 1;
     height: 30px;
-    width: 100px;
-}
-#beats {
-    grid-row: 5 / span 1;
-    grid-column: 7 / span 1;
-    height: 10px;
     width: 100px;
 }
